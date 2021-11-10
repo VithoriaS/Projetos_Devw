@@ -12,12 +12,18 @@ import { MatToolbarModule } from "@angular/material/toolbar";
   declarations: [
     AppComponent,
     HeaderComponent
+    FooterComponent,
+    NavComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatListModule,
+    MatCardModule,
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]
